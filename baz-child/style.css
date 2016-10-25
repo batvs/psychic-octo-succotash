@@ -1,0 +1,92 @@
+/*
+ Theme Name:   baz Child
+ Theme URI:    https://example.com
+ Description:  this include the baz **child** theme, compatible with the baz wp theme.
+ Template:     baz
+ Version:      1.0.0
+*/
+
+
+
+/*  ----------------------------------
+  ## Custom starts here
+  ---------------------------------- */
+
+
+/* Resets */
+
+ol, ul {
+  margin-left: 10px;
+}
+
+
+/* Header */
+
+
+.site-header {
+  padding: 30px 0 10px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+@media screen and ( min-width: 600px ) {
+  .site-header {
+    text-align: left;
+  }
+}
+
+.site-header a {
+  text-decoration: none;
+}
+
+.site-description {
+  font-style: italic;
+  color: #d7d7d7;
+}
+
+.site-branding .site-title {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.site-branding .site-title a {
+
+}
+
+/* Main Content */
+
+.site-content {
+  padding: 30px 0;
+}
+
+@media screen and ( min-width: 600px ) {
+  .site-content {
+    padding: 50px 0;
+  }
+}
+
+
+/* Aside */
+
+aside.widget-area .widget-title {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+/* Footer */
+
+.site-footer {
+  padding: 30px 0;
+  background-color: #fafafa;
+}
+
+
+@media screen and ( min-width: 600px ) {
+  .site-footer {
+    padding: 50px 0;
+  }
+}
+
